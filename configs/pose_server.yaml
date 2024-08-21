@@ -1,0 +1,9 @@
+Pose_set:
+  body_det_model: 'pretrained_weights/rtmpose/rtmdet_m_640-8xb32_coco-person.py'
+  body_det_weights: 'pretrained_weights/rtmpose/rtmdet_m_8xb32-100e_coco-obj365-person-235e8209.pth'
+  body_set: 'pretrained_weights/rtmpose/rtmpose-x_8xb256-700e_coco-384x288.py'
+  body_model_path: 'pretrained_weights/rtmpose/rtmpose-x_simcc-body7_pt-body7_700e-384x288-71d7b7e9_20230629.pth'
+  hand_set: 'pretrained_weights/rtmpose/rtmw-x_8xb320-270e_cocktail14-384x288.py'
+  hand_model_path: 'pretrained_weights/rtmpose/rtmw-x_simcc-cocktail14_pt-ucoco_270e-384x288-f840f204_20231122.pth'
+  dwpose_root: 'pretrained_weights/dwpose'
+  

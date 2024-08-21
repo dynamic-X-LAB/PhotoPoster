@@ -1,0 +1,15 @@
+pretrained_base_model_path: "./pretrained_weights/stable-diffusion-2-inpainting"
+controlnet_path: "./pretrained_weights/controlnet"
+crop_ratio: 2.5
+control_scale: 10.0
+guidance_scale: 7.5
+strength: 0.97
+
+weight_dtype: 'fp16'
+test_cases:
+  "assets/hand_inpaint/ref_img1__pose_img2_res.png":
+    - "assets/hand_inpaint/ref_img1__pose_img2_pose.png"
+  "assets/hand_inpaint/ref_img2__pose_img2_res.png":
+    - "assets/hand_inpaint/ref_img2__pose_img2_pose.png"
+
+
