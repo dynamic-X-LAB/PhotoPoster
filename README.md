@@ -175,7 +175,7 @@ CUDA_VISIBLE_DEVICES=0,  python3 -m scripts.hand_inpaint --config configs/hand_i
 
 
 ## License
-1. `code`: The code of DynamicPose is released under the MIT License.
+1. `code`: The code of PhotoPoster is released under the MIT License.
 2. `other models`: Other open-source models used must comply with their license, such as `sd2-inpainting`, `dwpose`, `rtmpose`, etc..
 
 
