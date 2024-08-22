@@ -65,19 +65,19 @@ mim install "mmpose>=1.1.0"
 You can download weights manually as follows.
 
 * pose server
-	* [DWPose](https://github.com/IDEA-Research/DWPose?tab=readme-ov-file#-dwpose-for-controlnet)
-	* [RTMPose](https://github.com/open-mmlab/mmpose/tree/main/projects/rtmpose)
+  * [DWPose](https://github.com/IDEA-Research/DWPose?tab=readme-ov-file#-dwpose-for-controlnet)
+  * [RTMPose](https://github.com/open-mmlab/mmpose/tree/main/projects/rtmpose)
 
 * pre generation
-	* Download the weights of these components:
-		* [SD1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5)
-		* [sd-vae-ft-mse](https://huggingface.co/stabilityai/sd-vae-ft-mse)
-		* [image_encoder](https://huggingface.co/lambdalabs/sd-image-variations-diffusers/tree/main/image_encoder)
-	* Download our trained [weights](https://huggingface.co/DynamicXLAB/PhotoPoster/tree/main/stage1), which include three parts: denoising_unet.pth, reference_unet.pth and pose_guider.pth.
+  * Download the weights of these components:
+    * [SD1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5)
+    * [sd-vae-ft-mse](https://huggingface.co/stabilityai/sd-vae-ft-mse)
+    * [image_encoder](https://huggingface.co/lambdalabs/sd-image-variations-diffusers/tree/main/image_encoder)
+  * Download our trained [weights](https://huggingface.co/DynamicXLAB/PhotoPoster/tree/main/stage1), which include three parts: denoising_unet.pth, reference_unet.pth and pose_guider.pth.
  
 * hand restoration
-	* Download the weights of [sd-2-inpaint](https://huggingface.co/stabilityai/stable-diffusion-2-inpainting)
-	* Download our trained [weights](https://huggingface.co/DynamicXLAB/PhotoPoster/tree/main/controlnet), which include two parts: config.json and diffusion_pytorch_model.safetensors.
+  * Download the weights of [sd-2-inpaint](https://huggingface.co/stabilityai/stable-diffusion-2-inpainting)
+  * Download our trained [weights](https://huggingface.co/DynamicXLAB/PhotoPoster/tree/main/controlnet), which include two parts: config.json and diffusion_pytorch_model.safetensors.
 
 Finally, these weights should be organized in `pretrained_weights` as follows:
 ```
