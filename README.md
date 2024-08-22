@@ -18,7 +18,7 @@ If you are interested in exploring or contributing to any of these modules, plea
 ![wholenet](docs/images/wholenet.png)
 
 ## News
-- [08/21/2024] Release `PhotoPoster` project and pretrained models.
+- [08/21/2024] 🔥 Release `PhotoPoster` project and pretrained models.
 - In the coming two weeks, we will release comfyui of PhotoPoster and DynamicPose.
 
 ## Demos
