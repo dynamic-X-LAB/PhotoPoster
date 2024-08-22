@@ -24,9 +24,6 @@ If you are interested in exploring or contributing to any of these modules, plea
 ## Demos
 ![all_demos](docs/images/all_res1.jpg)
 
-
-
-
 ## Todo:
 - [x] Release inference codes and checkpoints of pre generation stage.
 - [x] Release inference codes and checkpoints of hand restoration net.
@@ -182,7 +179,7 @@ CUDA_VISIBLE_DEVICES=0,  python3 -m scripts.hand_inpaint --config configs/hand_i
 ## Citation
 ```bibtex
 @software{photoposter,
-  author = {Yanqin Chen, Changhao Qiao, Sijie Xu, Yang Chen, Wei Zhu, Dejia Song},
+  author = {Yanqin Chen, Changhao Qiao, Yufei Cai, Sijie Xu, Yang Chen, Wei Zhu, Dejia Song},
   title = {PhotoPoster: A high-fidelity two-stage pose-driven image generation framework},
   month = {August},
   year = {2024},
