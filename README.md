@@ -8,7 +8,8 @@
 ## Introduction
 The field of portrait animation has seen significant advancements in recent years, largely due to progress in diffusion models. To support and further this research, we are excited to launch PhotoPoster, an open project for pose-driven image generation.In the realm of image-to-image (i2i) translation, PhotoPoster stands out by incorporating a refinement stage to significantly enhance overall image quality. For more detailed information and visual demonstrations, please visit our [project page](https://photo-poster.github.io). We are committed to **opening complete source code for free** and **regularly updating PhotoPoster** with several planned enhancements, including improvements in algorithm module engineering, data processing pipelines, and training code optimization.Additionally, we are gearing up to **release DynamicPose in two weeks**, which is a complementary image-to-video (i2v) project.
 
-If you are interested in exploring or contributing to any of these modules, please feel free to email us for project discussions. Btw, if our open source work can benefit you, we would greatly appreciate it if you could give us a star ⭐!
+## About our team:
+Our lab is a collective of passionate AIGC enthusiasts dedicated to the development of highly controllable video generation techniques. We pledge to openly share all of our findings with the community at no cost, and we warmly invite you to join us in discussion and collaborative research. If you are interested in exploring or contributing to any of these modules, please feel free to email us for project discussions. Btw, if our open source work can benefit you, we would greatly appreciate it if you could give us a star ⭐!
 
 
 
