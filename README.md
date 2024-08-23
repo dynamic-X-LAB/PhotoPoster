@@ -16,6 +16,7 @@ If you are interested in exploring or contributing to any of these modules, plea
 
 ## News
 - [08/21/2024] 🔥 Release `PhotoPoster` project and pretrained models.
+- [08/21/2024] 🔥 Release pose server based FaseAPI.
 - In the coming two weeks, we will release comfyui of PhotoPoster and DynamicPose.
 
 ## Demos
