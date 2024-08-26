@@ -14,7 +14,7 @@ Our lab is a collective of passionate AIGC enthusiasts dedicated to the developm
 
 ## News
 - [08/21/2024] 🔥 Release `PhotoPoster` project and pretrained models.
-- [08/21/2024] 🔥 Release pose server based FaseAPI.
+- [08/21/2024] 🔥 Release pose server based FastAPI.
 - In the coming two weeks, we will release comfyui of PhotoPoster and DynamicPose.
 
 
@@ -178,7 +178,7 @@ CUDA_VISIBLE_DEVICES=0,  python3 -m scripts.hand_inpaint --config configs/hand_i
 ## Citation
 ```bibtex
 @software{photoposter,
-  author = {Yanqin Chen, Changhao Qiao, Yufei Cai, Sijie Xu, Yang Chen, Wei Zhu, Dejia Song},
+  author = {Yanqin Chen, Changhao Qiao, Sijie Xu, Yang Chen, Wei Zhu, Dejia Song},
   title = {PhotoPoster: A high-fidelity two-stage pose-driven image generation framework},
   month = {August},
   year = {2024},
